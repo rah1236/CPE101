@@ -1,0 +1,16 @@
+How to use interactive mode?
+
+By running 'python' in the command line or any other python repl.
+
+Why do we use assertAlmostEqual?
+
+Because floating point math is usually aproximate down to the last few digits, so the answer may not be bit for bit correct.
+
+difference between / and //?
+
+/ is regular division with floating point enabled math
+// is floor division and rounds to the nearest integer.
+
+difference between expression 8, 9, 10, and 11
+
+The difference between these test cases is simply the reordering of operations in the equation.
