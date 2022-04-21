@@ -12,7 +12,7 @@ def read_str():
     print("Cool, thank you!")
 
 #Purpose: Computes the factorial of given integer
-# int -> float
+# int -> int
 def factorial(number):
     newNumber = abs(int(number))
     product = newNumber
@@ -58,9 +58,11 @@ def total_avg(num1, num2):
 
 def main():
    table_size = get_table_size()
-   increment = get_increment()
    while table_size != 0:
       first = get_first()
+      increment = get_increment()
+
+
       show_table(table_size, first, increment)
       table_size = get_table_size()
 
