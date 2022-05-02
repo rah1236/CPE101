@@ -3,8 +3,8 @@
 
 # You will need to supply the following information.
 
-# Name:
-# Section:
+# Name: Raheel Rehmatullah
+# Section: 7
 
 import unittest
 import power4Table
