@@ -16,13 +16,21 @@ def whole_str_capitalize(string):
 #str->str
 def str_capitalize(string):
     newString = ""
+    lastCharWasSpace = False
     for char in string:
         if len(newString) == 0:
             newString += whole_str_capitalize(char)
+        elif lastCharWasSpace:
+            newString += whole_str_capitalize(char)
         else:
             newString += char
+        if char == " ":
+            lastCharWasSpace = True
+        else:
+            lastCharWasSpace = False
     return(newString)
 
+print(str_capitalize("This is a test of the func"))
 
 #Purpose: Input a string and return the vowels in the string in the order they appear
 #str -> str

@@ -10,7 +10,7 @@ import str_funcs
 class TestCases(unittest.TestCase):
    def test_str_capitalize (self):
       self.assertEqual(str_funcs.str_capitalize("pee"), "Pee")
-      self.assertEqual(str_funcs.str_capitalize("off the goop"), "Off the goop")
+      self.assertEqual(str_funcs.str_capitalize("off the goop"), "Off The Goop")
       self.assertEqual(str_funcs.str_capitalize("snart"), "Snart")
 
    def test_vowel_extractor (self):
