@@ -30,7 +30,7 @@ def str_capitalize(string):
             lastCharWasSpace = False
     return(newString)
 
-print(str_capitalize("This is a test of the func"))
+#print(str_capitalize("This is a test of the func"))
 
 #Purpose: Input a string and return the vowels in the string in the order they appear
 #str -> str
