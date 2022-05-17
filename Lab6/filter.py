@@ -7,9 +7,11 @@
 #list - > list
 def are_even(numbers):
     newList = []
-    for number in numbers:
+    count = 0
+    while(count < len(numbers)):
         if number % 2 == 0:
             newList.append(number)
+            count += 1
     return(newList)
 
 #returns a list with duplicate numbers removed
